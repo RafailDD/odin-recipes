@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    font-family: serif, Verdana, sans-serif;
+}
+
+p, ul, ol {
+    color: white;
+}
+
+h1, h2{
+    background-color: grey;
+    color: whitesmoke;
+    text-align: center;
+}
+
+p {
+    font-family: serif;
+}
+
+a {
+    color: Yellow;
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
+
+

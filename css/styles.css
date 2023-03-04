@@ -20,16 +20,9 @@ body {
     
 }
 
-p, ul, ol {
-    color: white;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    font-family: "Mabook", serif, Verdana, sans-serif;;
+div {
+    align-self: center;
+    margin-top: 30px;
 }
 
 #logo {
@@ -41,11 +34,6 @@ ul {
     
 }
 
-div {
-    align-self: center;
-    margin-top: 30px;
-}
-
 h1, h2{
     font-family: "Coffee Mood", serif, Verdana, sans-serif;
     margin: 0px;
@@ -54,18 +42,35 @@ h1, h2{
     text-align: center;
 }
 
-p {
-    font-family: serif;
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Mabook", serif, Verdana, sans-serif;;
 }
 
-a {
+/*.cabbage-icon:hover {
+    background-color: black;
+    background-image: url("../img/cabbage_2.png")
+}*/
+
+.main {
+    display: flex;
+}
+
+div > a{
     color: #f5e960;
     text-decoration: none;
+    font-family: "Mabook", serif, Verdana, sans-serif;
 }
 
-img {
-    height: auto;
-    width: 500px;
+div > img {
+    height: 100px;
+    width: auto;
 }
 
-
+p {
+    font-family: serif;
+    color: white;
+}

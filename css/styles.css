@@ -3,12 +3,20 @@
     src: url(../fonts/Coffee_Mood.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: "Mabook";
+    src: url(../fonts/Mabook.ttf) format("truetype");
+}
+
 body {
-    background-color: rgb(223, 126, 210);
-    font-family: "Harman Retro",serif, Verdana, sans-serif;
+    background-color: #f49097;
+    font-family: serif, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0px;
+    margin: 0px;
+    gap: 30px;
     
 }
 
@@ -19,6 +27,9 @@ p, ul, ol {
 ul {
     display: flex;
     list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Mabook", serif, Verdana, sans-serif;;
 }
 
 #logo {
@@ -27,16 +38,19 @@ ul {
     padding: 10px;
     border: dashed;
     border-radius: 10px;    
+    
 }
 
 div {
     align-self: center;
+    margin-top: 30px;
 }
 
 h1, h2{
     font-family: "Coffee Mood", serif, Verdana, sans-serif;
-    background-color: grey;
-    color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+    color: #9cf6f6;
     text-align: center;
 }
 
@@ -45,7 +59,8 @@ p {
 }
 
 a {
-    color: Yellow;
+    color: #f5e960;
+    text-decoration: none;
 }
 
 img {
